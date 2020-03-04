@@ -1,0 +1,8 @@
+{
+  "appId": "com.boostraptest.com",
+  "appName": "bootstrap",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
