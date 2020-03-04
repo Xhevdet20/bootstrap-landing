@@ -6,7 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap" rel="stylesheet">
     <style type="text/css">
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1,h2,h3,h4,h5,h6 {
+            font-family: 'Rubik', sans-serif;
+        }
+
         .jumbotron {
             background-image: url('background.jpg');
             background-size: cover;
@@ -19,7 +27,7 @@
             padding-top: 4rem ;
         }
 
-        #newsletter {
+        #section-newsletter {
             padding-top: 0;
         }
     </style>
@@ -41,31 +49,31 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav" id="navScrollSpy">
                 <li class="navbar-item">
-                    <a href="#top" class="nav-link">To the top</a>
+                    <a href="#section-jumbotron" class="nav-link">To the top</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#description" class="nav-link">Description</a>
+                    <a href="#section-description" class="nav-link">Description</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#trailer" class="nav-link">Trailer</a>
+                    <a href="#section-trailer" class="nav-link">Trailer</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#showcase" class="nav-link">Showcase</a>
+                    <a href="#section-showcase" class="nav-link">Showcase</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#section-features" class="nav-link">Features</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#pricing" class="nav-link">Pricing</a> 
+                    <a href="#section-pricing" class="nav-link">Pricing</a> 
                 </li>
                 <li class="navbar-item">
-                    <a href="#reviews" class="nav-link">Reviews</a>
+                    <a href="#section-reviews" class="nav-link">Reviews</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <section id="top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+    <section id="section-jumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
         <div class="container text-center">
             <h1 class="display-1 text-primary text-uppercase">Cameo</h1>
             <p class="display-4 d-none d-sm-block">Capture every moment</p>
@@ -78,7 +86,7 @@
     </section>
 
    <div class="container">
-    <section id="description">
+    <section id="section-description">
          <h2 class="display-4 text-center">What is Cameo?</h2>
          <p>Cameo is an innovative camera app for both IOS and Android that lets you campture the best moments in life either on still photos or video.
             Cameo have many useful features to enhance the photos and videos with editing tools, filters and effects. And when you're done you can easily
@@ -86,14 +94,14 @@
          <p>Caemo has been designed from the bottom up by photography experts and award-winning app developers to make sure you get the best camera app 
              ever created. We are continously improving the app with new features - this is just the beginning.</p>
     </section>
-    <section id="trailer">
+    <section id="section-trailer">
         <h2 class="display-4 text-center">Cameo trailer</h2>
         <p class="text-center">What our trailer below to learn how Cameo works.</p>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Uq5JnknTTK8" frameborder="0"></iframe>
         </div>
     </section>
-    <section id="showcase">
+    <section id="section-showcase">
         <h2 class="display-4 text-center">Cameo in action</h2>
         <p class="text-center">Examples of how and where you can use Cameo.</p>
         <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -143,7 +151,7 @@
             </a>
         </div>
     </section>
-    <section id="features">
+    <section id="section-features">
         <h2 class="display-4 text-center">Features</h2>
         <div class="row">
             <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
@@ -175,7 +183,7 @@
             </div>
         </div>
     </section>
-    <section id="pricing">
+    <section id="section-pricing">
         <h2 class="display-4 text-center">Choose your plan</h2>
         <div class="row">
 
@@ -246,7 +254,7 @@
             </div>
         </div>
     </section>
-    <section id="reviews">
+    <section id="section-reviews">
         <h2 class="display-4 text-center">Reviews</h2>
         <div class="row">
             <div class="col-12 col-md-6 col-xl-3">
@@ -276,7 +284,7 @@
         </div>
     </section>
    </div>
-   <section class="bg-secondary" id="newsletter">
+   <section class="bg-secondary" id="section-newsletter">
        <div class="container">
            <form class="py-5 text-white">
                <h2 class="text-center">Sign-up for our newsletter</h2>
@@ -410,5 +418,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <!-- smooth scroll -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js" integrity="sha256-CfyPGYLRQ4v1O+mZa5ocQglABXGuaZmmfe8awy8Fxis=" crossorigin="anonymous"></script>
+     <script type="text/javascript">
+        $(function () {
+            var scroll = new SmoothScroll('a[href*="#section-"]');
+        });
+    </script>
 </body>
 </html>
